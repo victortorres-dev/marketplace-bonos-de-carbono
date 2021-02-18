@@ -1,0 +1,39 @@
+body {
+    font-family: $font-family;
+    font-size: $size-body-desktop;
+}
+.title {
+    font-size: $size-title-mb;
+    @include tablet {
+        font-size: $size-title-desktop;
+    }
+}
+.subtitle {
+    font-size: $size-subtitle-mb;
+    @include tablet {
+        font-size: $size-subtitle-desktop;
+    }
+}
+.subtitle-secondary {
+    font-size: $size-subtitle2-mb;
+    @include tablet {
+        font-size: $size-subtitle2-desktop;
+    }
+}
+.overline {
+    font-size: $size-overline;
+}
+.caption {
+    font-size: $size-caption;
+}
+
+button {
+    font-size: $size-button-mb;
+    @include tablet {
+        font-size: $size-button-desktop;
+    }
+}
+
+img {
+    width: 100%;
+}

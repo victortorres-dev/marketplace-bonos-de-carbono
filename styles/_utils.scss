@@ -1,0 +1,75 @@
+.bg-yellow {
+    background-color: $primary-yellow;
+}
+.bg-magenta {
+    background-color: $primary-magenta;
+}
+.bg-image {
+    background-image: url("/images/bg-hero-mobile.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    @include desktop {
+        background-image: url("/images/bg-hero.jpg");
+    }
+}
+.mt-32 {
+    margin-top: 32px;
+}
+.hero {
+    background: $bg-hero;
+    height: 900px;
+    @include desktop {
+        height: calc(100vh + 700px);
+    }
+}
+.title-hero {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 36px;
+    text-align: center;
+    color: $primary-blue;
+    @include desktop {
+        line-height: 46px;
+    }
+}
+.second-title {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 36px;
+    text-align: center;
+    color: $white;
+    @include desktop {
+        line-height: 46px;
+    }
+}
+.subtitle-hero {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 36px;
+    text-align: center;
+    color: $white;
+    @include desktop {
+        line-height: 46px;
+        padding-left: 100px;
+        text-align: left;
+    }
+}
+.card-explain-mobile {
+    display: flex;
+    overflow-x: auto;
+    @include desktop {
+        display: none;
+    }
+}
+.card-explain-desktop {
+    display: none;
+    @include desktop {
+        display: flex;
+    }
+}
+.img-explain-process {
+    filter: drop-shadow(1px 2px 15px rgba(0, 0, 0, 0.9));
+    width: 280px;
+}
