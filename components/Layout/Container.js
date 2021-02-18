@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import NavBar from '../NavBar'
+import Footer from '../Footer'
 
 export default function Index ({ children }) {
   return (
@@ -21,7 +22,7 @@ export default function Index ({ children }) {
       </Head>
       <NavBar />
       {children}
-
+      <Footer/>
     </>
   )
 }

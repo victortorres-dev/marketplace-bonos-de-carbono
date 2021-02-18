@@ -4,6 +4,27 @@
 .bg-magenta {
     background-color: $primary-magenta;
 }
+.bg-blue {
+    background-color: $primary-blue;
+}
+.bg-green {
+    background-color: $primary-green;
+}
+.text-green {
+    color: $primary-green;
+}
+.text-yellow {
+    color: $primary-yellow;
+}
+.text-magenta {
+    color: $primary-magenta;
+}
+.text-blue {
+    color: $primary-blue;
+}
+.text-white {
+    color: $white;
+}
 .bg-image {
     background-image: url("/images/bg-hero-mobile.jpg");
     background-repeat:no-repeat;
@@ -72,4 +93,21 @@
 .img-explain-process {
     filter: drop-shadow(1px 2px 15px rgba(0, 0, 0, 0.9));
     width: 280px;
+}
+.bg-projects {
+    background-image: url("/images/bosque.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    @include desktop {
+        background-image: url("/images/bosque.jpg");
+    }
+}
+.projects {
+    background: $bg-projects;
+    height: calc(100% + 500px);
+    @include desktop {
+        height: calc(100vh + 400px);
+    }
 }

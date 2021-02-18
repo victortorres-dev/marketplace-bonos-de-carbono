@@ -1,16 +1,16 @@
 import React from 'react'
 
-const CardBenefits = ({url, description}) => {
+const CardBenefits = ({ url, description }) => {
   return (
-    <div>
-        <div>
-            <img src={url} />
-        </div>
-        <div>
-            <p>
-                {description}
-            </p>
-        </div>
+    <div class='card-benefits'>
+      <div>
+        <img src={url} class='img-card-benefits' />
+      </div>
+      <div class='mt-5'>
+        <p class='text-center txt-color-blue'>
+          {description}
+        </p>
+      </div>
     </div>
   )
 }

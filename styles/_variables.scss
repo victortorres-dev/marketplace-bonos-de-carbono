@@ -17,9 +17,9 @@ $bg-extra-information: linear-gradient(108.76deg, #BA1863 0%, #BA1863 0.01%, rgb
 $bg-blue-gradient-up: linear-gradient(180deg, rgba(14, 217, 86, 0.2) 11.46%, rgba(25, 48, 219, 0.35) 68.23%, #1930DB 100%);
 $bg-dark-gradient-up: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 76.15%, #000000 93.53%);
 $bg-dark-gradient-down: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.2) 100%);
-
+$bg-projects:  linear-gradient(180deg, rgba(14, 217, 86, 0.2) 11.46%, rgba(25, 48, 219, 0.35) 68.23%, #1930DB 100%);
 //Shadow Cards
-$shadow-cards: 1px 2px 50px rgba(0, 0, 0, 0.5);
+$shadow-cards: 1px 2px 35px rgba(0, 0, 0, 0.25);
 
 // typography
 $font-family: 'Oswald', sans-serif;
@@ -29,7 +29,7 @@ $size-title-desktop: 35px;
 $size-subtitle-desktop: 25px;
 $size-subtitle2-desktop: 15px;
 $size-overline: 10px;
-$size-caption: 12px;
+$size-caption: 14px;
 $size-body-desktop: 14px;
 $size-button-desktop: 16px;
 

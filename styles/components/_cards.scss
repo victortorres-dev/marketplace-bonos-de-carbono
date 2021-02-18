@@ -1,0 +1,130 @@
+.card-benefits {
+    border-radius: 16px;
+    padding: 32px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    width: 90%;
+    margin: 16px auto;
+    background: $white;
+    box-shadow: $shadow-cards;
+    filter: 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.1), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0807786), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0562291);
+    transition: filter .5s ease, transform 0.5s, box-shadow .5s ease;
+    &:hover {
+        box-shadow: inset 0px 3px 20px rgba(0, 0, 0, 0.1);
+        transform: scale(1.08);
+        filter: drop-shadow(0px 17.5px 17.5px rgba(0, 0, 0, 0.15));
+    }
+    &:active {
+        box-shadow: inset 0px 3px 20px rgba(0, 0, 0, 0.1);
+    }
+    @include desktop {
+        width: 300px;
+        margin-top: 0;
+    }
+}
+.txt-color-blue {
+    color: $primary-blue;
+}
+.img-card-benefits {
+    width: 115px;
+}
+.img-card-presentation {
+    border-radius: 16px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    @include desktop {
+        max-width: 450px;
+        margin-top: 0;
+    }
+}
+.card-presentation {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    background: linear-gradient(201.55deg, rgba(0, 0, 0, 0.05) 14.16%, rgba(0, 0, 0, 0.427083) 49.69%, #000000 90.81%);
+    padding: 16px 0 16px 16px;
+    @include desktop {
+        max-width: 450px;
+        margin-top: 0;
+    }
+}
+
+.section-price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.label-price {
+    margin-right: 16px;
+    padding: 4px 32px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-price {
+    background: $primary-magenta;
+    padding: 4px;
+    border-radius: 50px 0 0 50PX;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    filter: 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.1), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0807786), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0562291);
+    transition: filter .5s ease, transform 0.5s, box-shadow .5s ease;
+    &:hover {
+        box-shadow: inset 0px 3px 20px rgba(0, 0, 0, 0.1);
+        transform: scale(1.10);
+        filter: drop-shadow(0px 17.5px 17.5px rgba(0, 0, 0, 0.15));
+    }
+    &:active {
+        box-shadow: inset 0px 3px 20px rgba(0, 0, 0, 0.1);
+    }
+}
+.content-features {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.label-bonos {
+    width: 100%;
+    padding: 4px 8px;
+    border-radius: 25px;
+    text-align: center;
+    @include desktop {
+        max-width: 45%;
+    }
+}
+.content-more-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    @include desktop {
+        flex-direction: row;
+    }
+}
+.content-button-more-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-more-information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    padding: 0;
+    filter: 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.50), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0807786), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0562291);
+    transition: filter .5s ease, transform 0.5s;
+    &:hover {
+        transform: scale(1.30);
+        filter: drop-shadow(0px 17.5px 17.5px rgba(0, 0, 0, 0.85));
+    }
+    &:active {
+        box-shadow: inset 0px 3px 20px rgba(0, 0, 0, 0.1);
+    }
+}
